@@ -44,6 +44,7 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          docker build -t ${{secrets.DOCKER_USERNAME}}/ris-devops-practice-project:latest ./pipeline-practice
-          docker push ${{secrets.DOCKER_USERNAME}}/ris-devops-practice-project:latest
+          docker build -t ghcr.io/<your-github-username>/ris-devops-practice-project:latest ./pipeline-practice
+          docker push ghcr.io/<your-github-username>/ris-devops-practice-project:latest
+
  
