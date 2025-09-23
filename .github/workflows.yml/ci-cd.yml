@@ -26,5 +26,5 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/ris-devops-app:latest 
+          tags: ${{ secrets.DOCKER_USERNAME }}/RIS-devops-practice-project:latest 
  
